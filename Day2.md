@@ -1,4 +1,4 @@
-나머지 구하기
+# 나머지 구하기
 ```js
 function solution(num1, num2) {
     var answer = 0;
@@ -6,7 +6,7 @@ function solution(num1, num2) {
     return answer;
 }
 ```
-중앙값 구하기(sort,math)
+# 중앙값 구하기(sort,math)
 ```js
 function solution(array) {
     const list = array.sort((a,b) => a-b)
@@ -14,7 +14,9 @@ function solution(array) {
     return list[center]
 }
 ```
-최빈값 구하기(틀림)(map,array)
+arr.sort([compareFunction]) : 배열을 정리한다.
+
+# 최빈값 구하기(틀림)
 ```js
 function solution(array) {
     let counting = new Map();
@@ -33,7 +35,10 @@ function solution(array) {
     return countArray.length === 1 ? countArray[0] : -1;
 }
 ```
-짝수는 싫어요(array)
+map() 함수
+배열을 처리해서 새로운 배열로 반환하기 위한 함수입니다.(순회해서 찾음)
+
+# 짝수는 싫어요
 ```js
 function solution(n) {
     var answer = [];
@@ -45,7 +50,10 @@ function solution(n) {
     return answer;
 }
 ```
-피자 나눠 먹기 (1)
+배열 추가 : Array.push(), Array.unshift(), Array.splice()
+
+배열 삭제 : Array.pop(), Array.shift(), Array.splice()
+# 피자 나눠 먹기 (1)
 ```js
 function solution(n) {
     let pizza = 1;
@@ -55,7 +63,7 @@ function solution(n) {
     return pizza;
 }
 ```
-피자 나눠 먹기 (2)
+# 피자 나눠 먹기 (2)
 ```js
 const solution = (n) => {
     let piece = 6
@@ -69,14 +77,14 @@ const solution = (n) => {
     return piece / 6
 }
 ```
-피자 나눠 먹기 (3)
+# 피자 나눠 먹기 (3)
 ```js
 function solution(slice, n) {
    var pizza = (n%slice == 0) ? n/slice : n/slice+1;
    return parseInt(pizza);
 }
 ```
-배열의 평균값
+# 배열의 평균값
 ```js
 function solution(numbers) {
     var sum = 0;
