@@ -19,7 +19,7 @@ function solution(age) {
     return answer;
 }
 ```
-# 진료 순서 정하기
+# 진료 순서 정하기(틀림)
 ```js
 function solution(emergency) {
      let sorted = emergency.slice().sort((a,b)=>b-a);
