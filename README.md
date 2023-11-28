@@ -5,3 +5,4 @@
 # [Day 3](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day3.md)
 # [Day 4](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day4.md)
 # [Day 5](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day5.md)
+# [Day 6](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day6.md)
