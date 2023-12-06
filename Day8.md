@@ -1,4 +1,4 @@
-# 가까운 수 
+# 가까운 수
 ```js
 function solution(array, n) {
     array.sort((a,b) => Math.abs(n - a) - Math.abs(n - b) || a - b);
