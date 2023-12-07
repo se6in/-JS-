@@ -14,7 +14,9 @@ function solution(array) {
     return list[center]
 }
 ```
-arr.sort([compareFunction]) : 배열을 정리한다.
+arr.sort([compareFunction]) : 배열을 정리한다. 
+
+arr.sort( (a, b) => a - b)    // arr = [1, 2, 3, 5] 오름차순 ( b - a 면 내림차순)
 
 # 최빈값 구하기(틀림)
 ```js
