@@ -11,3 +11,4 @@
 # [Day 9](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day9.md)
 # [Day 10](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day10.md)
 # [Day 11](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day11.md)
+# [Day 12](https://github.com/se6in/JS-cording-test-programmers-/blob/main/Day12.md)
